@@ -4,9 +4,8 @@
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
    <link rel="stylesheet" href="./css/style.css">
-   <link rel="preconnect" href="https://fonts.gstatic.com">
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;700&display=swap"
       rel="stylesheet">
@@ -16,25 +15,30 @@
 
 <body>
    <!-- header -->
+
    <header class="header">
-      <div class="wrapper">
-         <div class="header__wrapper">
+      <div class="container">
+         <div class="header__wrapper-top">
             <div class="header__wrapper-top-left">
-               <a href=""><img src="./img/svg/Vector.svg" alt="telephone"></a>
-               <a href="">8 (812) 123-45-67</a>
+               <a href="#"><img src="./img/svg/Vector.svg" alt="telephone"></a>
+               <a href="#">8 (812) 123-45-67</a>
                <p>| Работаем 7 дней в неделю |</p>
                <p>9:00 — 18:00</p>
             </div>
             <div class="header__wrapper-top-right">
                <a href="#">
-                  <p>Войти / Регистрация</p>
+                  Войти
+               </a>
+               <span class="slash">/</span>
+               <a href="#">
+                  Регистрация
                </a>
             </div>
          </div>
          <div class="header__wrapper-bottom">
             <div class="header__logo">
-               <a href="" class="header__logo-link">
-                  <img src="./img/svg/PORTENlogo.png" alt="">
+               <a href="" class="header__logo-link logo">
+                  PORTEN
                </a>
             </div>
             <div class="header__nav">
@@ -63,27 +67,238 @@
          </div>
       </div>
    </header>
-   <!-- header end -->
+
+   <!-- END header  -->
+
    <!-- 1screen -->
+
    <section class="firstscreen">
-      <div class="wrapper__full">
-         <div class="white__box">
-            <span>PORTEN</span>
-            <span class="wr"></span>
+      <div class="firstscreen__content">
+         <div class="firstscreen__content__white__box">
+            <span class="firstscreen__content__white__box__logo logo">PORTEN</span>
+            <div class="underline"></div>
             <span>КИЕВ</span>
          </div>
-         <p class="description">
+         <p class="firstscreen__content__description container">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, eligendi alias ipsam necessitatibus nemo
             rem perferendis expedita itaque laudantium ducimus? Iure qui est eos necessitatibus optio corrupti illum
-            quod voluptatem facere. Quia rerum sit esse eaque sed dignissimos. Labore possimus incidunt in voluptatibus
+            quod voluptatem facere. Quia rerum sit esse eaque sed dignissimos. Labore possimus incidunt in
+            voluptatibus
             minus cupiditate molestias ea officia, repudiandae dicta!
          </p>
-         .....
       </div>
    </section>
-   <!-- 1screen end-->
 
-   <script src="./js/main.js"></script>
+   <!-- END 1screen -->
+
+   <!-- 2screen -->
+
+   <section class="secondscreen">
+      <div class="secondscreen__left">
+         <div class="secondscreen__left__title">
+            СЕЗОН 2020/21
+         </div>
+         <div class="underline"></div>
+         <div class="secondscreen__left__clocks__items">
+            <div class="secondscreen__left__clocks__item">
+               <img src="./img/time1.jpg" alt="">
+               <div class="secondscreen__left__clocks__item-name">
+                  <a href="" class="">Louis XVI ATHOS</a>
+               </div>
+               <div class="secondscreen__left__clocks__item-price">
+                  165 000 руб.
+               </div>
+            </div>
+            <div class="secondscreen__left__clocks__item">
+               <img src="./img/time1.jpg" alt="">
+               <div class="secondscreen__left__clocks__item-name">
+                  <a href="">LATHOouis XVI</a>
+               </div>
+               <div class="secondscreen__left__clocks__item-price">
+                  165 000 руб.
+               </div>
+            </div>
+            <div class="secondscreen__left__clocks__item">
+               <img src="./img/time1.jpg" alt="">
+               <div class="secondscreen__left__clocks__item-name">
+                  <a href="">LATHOouis XVI</a>
+               </div>
+               <div class="secondscreen__left__clocks__item-price">
+                  165 000 руб.
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="secondscreen__right ">
+         <div class="secondscreen__right__wrapper">
+            <div class="secondscreen__right__title">
+               Новая коллекция
+            </div>
+            <div class="underline"></div>
+            <div class="secondscreen__right__btn">
+               <button class="btn-default">Каталог</button>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- END 2screen -->
+
+
+   <!-- 3screen -->
+
+   <section class="threescreen">
+      <div class="threescreen__left">
+         <img class="blazer" src="./img/Rectangle9.jpg" alt="">
+      </div>
+      <div class="threescreen__right">
+         <div class="threescreen__right__wrapper">
+            <div class="threescreen__right__title">
+               коллекция 2018
+            </div>
+            <div class="underline"></div>
+            <p class="treescreen__right__text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Sit saepe dolore delectus nulla vero odit. Alias similique atque voluptas.
+               Eaque accusantium est provident dignissimos, dolor voluptatibus! Id, ratione.
+               Quam ex pariatur tempora beatae vero, accusamus commodi rem sequi suscipit
+               consequatur eveniet exercitationem aspernatur possimus facilis! Voluptatum ratione eos error ea.
+            </p>
+            <button class="btn-default">
+               Посмотреть каталог
+            </button>
+         </div>
+      </div>
+   </section>
+
+   <!-- END 3screen -->
+
+   <!-- fourscreen -->
+
+   <section class="fourscreen">
+      <div class="fourscreen__title">новые поступления</div>
+      <div class="underline"></div>
+      <div class="fourscreen__items container">
+         <div class="fourscreen__item">
+            <img src="./img/time1.jpg" alt="">
+            <div class="fourscreen__item__name"><a href="">Louis XVI ATHOS</a></div>
+            <div class="fourscreen__item__price">165 000 руб.</div>
+         </div>
+         <div class="fourscreen__item">
+            <img src="./img/time1.jpg" alt="">
+            <div class="fourscreen__item__name"><a href="">Louis XVI ATHOS</a></div>
+            <div class="fourscreen__item__price">165 000 руб.</div>
+         </div>
+         <div class="fourscreen__item">
+            <img src="./img/time1.jpg" alt="">
+            <div class="fourscreen__item__name"><a href="">Louis XVI ATHOS</a></div>
+            <div class="fourscreen__item__price">165 000 руб.</div>
+         </div>
+         <div class="fourscreen__item">
+            <img src="./img/time1.jpg" alt="">
+            <div class="fourscreen__item__name"><a href="">Louis XVI ATHOS</a></div>
+            <div class="fourscreen__item__price">165 000 руб.</div>
+         </div>
+         <div class="fourscreen__item">
+            <img src="./img/time1.jpg" alt="">
+            <div class="fourscreen__item__name"><a href="">Louis XVI ATHOS</a></div>
+            <div class="fourscreen__item__price">165 000 руб.</div>
+         </div>
+         <div class="fourscreen__item">
+            <img src="./img/time1.jpg" alt="">
+            <div class="fourscreen__item__name"><a href="">Louis XVI ATHOS</a></div>
+            <div class="fourscreen__item__price">165 000 руб.</div>
+         </div>
+         <div class="fourscreen__item">
+            <img src="./img/time1.jpg" alt="">
+            <div class="fourscreen__item__name"><a href="">Louis XVI ATHOS</a></div>
+            <div class="fourscreen__item__price">165 000 руб.</div>
+         </div>
+         <div class="fourscreen__item">
+            <img src="./img/time1.jpg" alt="">
+            <div class="fourscreen__item__name"><a href="">Louis XVI ATHOS</a></div>
+            <div class="fourscreen__item__price">165 000 руб.</div>
+         </div>
+      </div>
+   </section>
+
+   <!--END fourscreen -->
+
+   <!-- ourbrands -->
+   <section class="brands">
+      <div class="brands__title">
+         наши бренды
+      </div>
+      <div class="underline"></div>
+      <div class="ourbrands">
+         <div class="ourbrands__items container">
+            <div class="ourbrands__item">
+               <img src="./img/brand2.png" alt="">
+            </div>
+            <div class="ourbrands__item">
+               <img src="./img/brand2.png" alt="">
+            </div>
+            <div class="ourbrands__item">
+               <img src="./img/brand2.png" alt="">
+            </div>
+            <div class="ourbrands__item">
+               <img src="./img/brand2.png" alt="">
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!--END ourbrands -->
+
+   <!-- footer -->
+
+   <footer>
+      <img class="footer__img" src="./img/footer.jpg" alt="">
+      <div class="footer__container">
+         <div class="footer__column container">
+            <div class="title">
+               О магазине
+            </div>
+            <p class="text">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Mi semper viverra nunc cursus tortor lectus nunc nulla nibh.
+               Egestas amet consectetur vel vitae aliquam dictum suspendisse.
+               Lobortis eget consequat, tellus et et sed turpis.
+               Pretium quisque vitae, amet, porttitor odio ultricies massa pharetra leo.
+               Et ipsum urna fames in sit mi ultrices nisi, nunc.
+            </p>
+         </div>
+         <div class="footer__column container">
+            <div class="title">
+               Категории
+            </div>
+            <ul class="footer__column__container-list">
+               <li><button type="text">Часы</li>
+               <li><button type="text">Браслеты</li>
+               <li><button type="text">ремни</li>
+               <li><button type="text">ювелирные изделия</li>
+               <li><button type="text">Запонки</li>
+            </ul>
+         </div>
+         <div class="footer__column container">
+            <div class="title">
+               РАссылка
+            </div>
+            <div class="text">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Mi semper viverra nunc cursus tortor lectus nunc nulla nibh.
+            </div>
+            <input class="email" type="text" placeholder="Ваша почта">
+            <input class="submit" type="submit" tex="подписаться">
+         </div>
+      </div>
+   </footer>
+
+   <!-- END footer -->
+
+   <script src="./js/main.js">
+
+   </script>
 </body>
 
 </html>
